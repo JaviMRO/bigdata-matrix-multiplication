@@ -1,0 +1,141 @@
+{
+  "csv": "benchmark_20261014_222025.csv",
+  "dry_run": false,
+  "forced": false,
+  "preflight_problems": [],
+  "started_at": "2026-10-14T22:20:25.547+01:00",
+  "sizes": [
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "schedule": [
+    "c:64",
+    "java:64",
+    "python:64",
+    "java:128",
+    "python:128",
+    "c:128",
+    "python:256",
+    "c:256",
+    "java:256",
+    "c:512",
+    "java:512",
+    "python:512",
+    "java:1024",
+    "python:1024",
+    "c:1024",
+    "python:2048",
+    "c:2048",
+    "java:2048"
+  ],
+  "repetitions": {
+    "c:64": [
+      2,
+      10
+    ],
+    "java:64": [
+      2,
+      10
+    ],
+    "python:64": [
+      2,
+      10
+    ],
+    "java:128": [
+      2,
+      10
+    ],
+    "python:128": [
+      2,
+      10
+    ],
+    "c:128": [
+      2,
+      10
+    ],
+    "python:256": [
+      2,
+      10
+    ],
+    "c:256": [
+      2,
+      10
+    ],
+    "java:256": [
+      2,
+      10
+    ],
+    "c:512": [
+      2,
+      5
+    ],
+    "java:512": [
+      2,
+      5
+    ],
+    "python:512": [
+      2,
+      5
+    ],
+    "java:1024": [
+      1,
+      5
+    ],
+    "python:1024": [
+      1,
+      5
+    ],
+    "c:1024": [
+      1,
+      5
+    ],
+    "python:2048": [
+      0,
+      1
+    ],
+    "c:2048": [
+      1,
+      5
+    ],
+    "java:2048": [
+      1,
+      5
+    ]
+  },
+  "reps_override": null,
+  "line_timeout_s": 600,
+  "memory_budget_bytes": 16845361152,
+  "sleep_between_s": 5,
+  "benchmark_cpu": 23,
+  "pinning": "single P-core logical CPU (GetSystemCpuSetInformation)",
+  "priority": "HIGH_PRIORITY_CLASS",
+  "power_at_start": {
+    "ac_power": true,
+    "battery_percent": 70,
+    "power_mode": "Best performance",
+    "power_mode_guid": "ded574b5-45a0-4f42-8737-46345c09c238",
+    "active_power_plan": "GUID de plan de energ\u00eda: 381b4222-f694-41f0-9685-ff5bb260df2e  (Equilibrado)"
+  },
+  "commands": {
+    "c": [
+      "C:\\Users\\javie\\Desktop\\CLASE\\TERCERO DATOS\\BD\\ASSIGMENTS\\bigdata-matrix-multiplication\\bigdata-matrix-multiplication\\assignment1\\build\\matmul_c.exe"
+    ],
+    "java": [
+      "java",
+      "-Xmx4g",
+      "-cp",
+      "C:\\Users\\javie\\Desktop\\CLASE\\TERCERO DATOS\\BD\\ASSIGMENTS\\bigdata-matrix-multiplication\\bigdata-matrix-multiplication\\assignment1\\build",
+      "MatMul"
+    ],
+    "python": [
+      "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "C:\\Users\\javie\\Desktop\\CLASE\\TERCERO DATOS\\BD\\ASSIGMENTS\\bigdata-matrix-multiplication\\bigdata-matrix-multiplication\\assignment1\\src\\python\\matmul.py"
+    ]
+  },
+  "jvm_flags_when_pinned": "-XX:-AOTInvokeDynamicLinking -XX:-AOTRecordTraining -XX:-AOTReplayTraining -XX:ConcGCThreads=5 -XX:G1ConcRefinementThreads=18 -XX:InitialHeapSize=526417536 -XX:MarkStackSize=4194304 -XX:MaxHeapSize=4294967296 -XX:MinHeapSize=6815736 -XX:+PrintCommandLineFlags -XX:ReservedCodeCacheSize=251658240 -XX:+SegmentedCodeCache -XX:+UseCompressedOops -XX:+UseG1GC -XX:-UseLargePagesIndividualAllocation ",
+  "finished_at": "2026-10-14T22:45:25.244+01:00"
+}

@@ -1,0 +1,4 @@
+language,largest_attempted_n,largest_feasible_n,failures
+c,2048,2048,none
+java,2048,2048,none
+python,2048,1024,n=2048: timeout (peak WS 514 MB when stopped)

@@ -1,0 +1,29 @@
+# Generated input matrices (large, reproducible with generate_inputs.py).
+# data/manifest.json IS committed.
+*/data/*.bin
+
+# Result matrices dumped by --dump (validation only) and dry-run benchmark output
+*/results/dumps/
+*/results/dryrun/
+
+# Compiled C and Java binaries
+*/build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# LaTeX build artefacts (the report is compiled on Overleaf)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# OS
+Thumbs.db
+desktop.ini
